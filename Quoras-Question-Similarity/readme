@@ -1,0 +1,9 @@
+This README outlines the key elements of a Quora Question Similarity project. It highlights:
+
+The Problem: Identifying duplicate questions on Quora.
+Dataset: Specifies the commonly used Quora Question Pairs dataset.
+Methodology: Includes data preprocessing, feature engineering, model selection, and evaluation.
+Feature Engineering: Emphasizes the importance of TF-IDF, word embeddings, and cosine similarity.
+Model Selection: Suggests popular models for similarity tasks, including Siamese Networks.
+Deployment: Mentions the potential for real-time application.
+Standard Sections: Includes installation instructions, contribution guidelines, and license information
