@@ -1,0 +1,3 @@
+ [Predict Customer Churn with Python](https://github.com/rjdecore/Machine-Learning-Project/new/main/Customer_churn_Predict) : 
+Customer churn (also known as customer attrition) is the loss of clients or customers.
+It is most commonly expressed as the percentage of service subscribers who discontinue their subscriptions within a given time period. In this project, we will build a machine learning model to predict customer churn.
