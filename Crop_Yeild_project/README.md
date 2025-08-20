@@ -99,10 +99,10 @@ Predicting-Crop-Yields/
 ## **Web Interface Screenshots**
 
 **Home Page:**  
-![Home Page](static/images/homepage.png)  
+![Home Page](static/homepage.png)  
 
 **Prediction Output:**  
-![Prediction Result](static/images/Predict.png)  
+![Prediction Result](static/Predict.png)  
 
 > ⚠️ Replace these with actual screenshots of your app.
 
