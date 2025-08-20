@@ -17,7 +17,7 @@ This project builds a Machine Learning model to predict whether a customer will 
 - Flask Web App for deployment
 
 # 🖼️ Web App Preview
-[!web_page][d.png]
+[!web_page][d.png](Customer_churn_Predict/static/web.png)
 
 **✨ The web app allows users to input customer details and get a prediction with probability.**
 
