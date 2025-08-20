@@ -54,7 +54,7 @@ The trained model is then deployed in a **Flask web app** with a simple UI where
 # 📸 Screenshot
 ## 📸 Screenshot  
 
-![App Screenshot](static/screenshot.png)
+![App Screenshot](static/app.png)
 
 # 🚀 Future Improvements
 
