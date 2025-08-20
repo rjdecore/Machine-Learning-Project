@@ -99,7 +99,7 @@ Predicting-Crop-Yields/
 ## **Web Interface Screenshots**
 
 **Home Page:**  
-![Home Page](static/homepage.png)  
+![Home Page](static/Home.png)  
 
 **Prediction Output:**  
 ![Prediction Result](static/Predict.png)  
