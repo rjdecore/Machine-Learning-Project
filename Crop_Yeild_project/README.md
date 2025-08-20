@@ -104,7 +104,7 @@ Predicting-Crop-Yields/
 **Prediction Output:**  
 ![Prediction Result](static/Predict.png)  
 
-> ⚠️ Replace these with actual screenshots of your app.
+
 
 ---
 
