@@ -1,37 +1,50 @@
-# Spam SMS Detection
+# SMS Spam Detection App
 
-This project focuses on building a machine learning model to detect spam SMS messages. It involves data cleaning, exploratory data analysis (EDA), text preprocessing, model building, evaluation, and potential improvements.
+This project is an SMS Spam Detection system built using **Python**, **Scikit-learn**, and **Streamlit**. The app classifies SMS messages as **Spam** or **Not Spam (Ham)** using a **Multinomial Naive Bayes (MNB)** model trained on preprocessed text.
 
-## Project Structure
+---
 
-- **spam.csv:** Contains the dataset of SMS messages labeled as spam or ham.
-- **spam_detection.ipynb:** Jupyter Notebook containing the code for the project.
-- **vectorizer.pkl:** Pickle file containing the trained TfidfVectorizer.
-- **model.pkl:** Pickle file containing the trained Multinomial Naive Bayes model.
-- **README.md:** This file.
+## 🔹 Project Overview
 
-## Requirements
+- **Objective:** Automatically detect whether an SMS message is spam or legitimate.
+- **Techniques Used:**
+  - Text preprocessing: tokenization, stopword removal, punctuation removal, stemming.
+  - Feature extraction: **TF-IDF Vectorization**.
+  - Model: **Multinomial Naive Bayes (MNB)**.
+  - Web app: **Streamlit** for interactive user interface.
 
-- Python 3.x
-- Libraries: numpy, pandas, scikit-learn, nltk, matplotlib, seaborn, wordcloud
-- Jupyter Notebook or Google Colab
+- **Why This Project:**  
+  SMS spam is a common problem affecting millions of users. This project provides a **quick, automated way** to detect and filter spam messages.
+
+---
+
+## 🔹 Features
+
+- Preprocesses SMS text to extract meaningful features.
+- Predicts **Spam** or **Not Spam** for any input SMS.
+- Interactive web app using Streamlit.
+- Supports dense TF-IDF vectors for compatibility with the trained model.
+- Can be extended to batch predictions or integrated with messaging systems.
+
+## App Screenshot
+
+Here’s how the SMS Spam Detection app looks:
+
+![SMS Spam Detection App](home.png)
+
+![SMS Spam Detection App](ham.png)
+
+![SMS Spam Detection App](spam.png)
 
 
 
-## Usage
 
-1. Open the `spam_detection.ipynb` notebook.
-2. Run the cells in the notebook to train and evaluate the model.
-3. Use the trained model to predict the spam or ham status of new SMS messages.
 
-## Model Performance
+---
 
-The Multinomial Naive Bayes model achieved the best performance with an accuracy of approximately 98% and a precision of approximately 99%.
+## 🔹 Installation
 
-## Improvements
-
-- Explore other machine learning models.
-- Hyperparameter tuning to optimize model performance.
-- Incorporate more data for training.
-- Build a web interface for real-time spam detection.
-
+1. **Clone the repository**
+```bash
+git clone <your-repo-url>
+cd sms-spam-detection
