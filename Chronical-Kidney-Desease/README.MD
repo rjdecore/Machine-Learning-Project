@@ -43,7 +43,7 @@ This project predicts whether a person is likely to have **Chronic Kidney Diseas
 
 ## 📸 App Preview  
 
-![App Screenshot](s.png)
+![App Screenshot](d.png)
 
 
 ---
