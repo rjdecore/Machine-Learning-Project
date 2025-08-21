@@ -91,9 +91,11 @@ streamlit run app.py
 └── README.md              # Project documentation
 
 🖼️ App Screenshot
-[!App-View](e.png)
+## 🖼️ App Screenshot
+[![App-View](e.png)](e.png)
 
-(Add a screenshot of your Streamlit app here)
+
+**(screenshot of your Streamlit app)**
 
 # 📈 Example Prediction
 
