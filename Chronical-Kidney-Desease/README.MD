@@ -41,6 +41,11 @@ This project predicts whether a person is likely to have **Chronic Kidney Diseas
    - **"Has Chronic Kidney Disease"**  
    - **"Does Not Have Chronic Kidney Disease"**  
 
+## 📸 App Preview  
+
+![App Screenshot](s.png)
+
+
 ---
 
 ## 📂 Repository Structure  
