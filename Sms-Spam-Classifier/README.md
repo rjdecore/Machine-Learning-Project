@@ -46,5 +46,5 @@ Here’s how the SMS Spam Detection app looks:
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone <(https://github.com/rjdecore/Machine-Learning-Project/edit/main/Sms-Spam-Classifier/README.md)>
 cd sms-spam-detection
