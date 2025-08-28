@@ -49,7 +49,7 @@ The goal is to categorize customers into meaningful clusters based on demographi
 
 - Interactive form for customer input:
 
-![Streamlit App Screenshot](screenshot.png)
+![Streamlit App Screenshot](Screenshot.png)
 
 ## Libraries Used
 - pandas  
