@@ -43,7 +43,13 @@ The goal is to categorize customers into meaningful clusters based on demographi
 ### 4. Streamlit User Interface
 - **Interactive form** for user to input customer details  
 - **Predicts cluster** in real-time using trained scaler + K-Means model  
-- Aligns user input with train features for accurate prediction  
+- Aligns user input with train features for accurate prediction
+
+# Streamlit User Interface
+
+- Interactive form for customer input:
+
+![Streamlit App Screenshot](screenshot.png)
 
 ## Libraries Used
 - pandas  
