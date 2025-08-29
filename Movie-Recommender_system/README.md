@@ -1,23 +1,40 @@
-# Movie Recommendation System
+# 🎬 Movie Recommender System
 
-This project implements a content-based movie recommendation system using Python and the Pandas, Numpy, NLTK, and Scikit-learn libraries. The system recommends movies similar to a given movie based on their genres, keywords, cast, and crew.
+A **content-based movie recommendation system** built with **Python, Streamlit, and TMDB API**.  
+It recommends 5 similar movies to the one selected by the user and displays their **posters & titles** in a clean web app interface.  
 
+---
 
-## Dataset
-Downlod From Kaggle
-The system uses the TMDB 5000 Movie Dataset, which contains information about 5000 movies, including their title, overview, genres, keywords, cast, and crew.
+## 📌 Overview
 
+Recommender systems are widely used by platforms like **Netflix, Amazon, and YouTube** to enhance user experience by suggesting relevant content.  
+This project demonstrates how to build a **content-based recommendation engine** using cosine similarity on movie metadata.  
 
-## Methodology
+The app is deployed using **Streamlit**, making it interactive and user-friendly. 
 
-1. Data Loading and Cleaning: The dataset is loaded into a Pandas DataFrame, and missing values and duplicates are removed.
-2. Feature Engineering: New features are created from the existing features, such as a "tags" feature that combines the movie's overview, genres, keywords, cast, and crew.
-3. Text Preprocessing: The "tags" feature is preprocessed using stemming and stop word removal.
-4. Text Vectorization: The preprocessed "tags" feature is vectorized using the CountVectorizer class from Scikit-learn.
-5. Cosine Similarity: The cosine similarity between the vectors of all movies is calculated to determine the similarity between them.
-6. Recommendation Generation: When a user inputs a movie title, the system finds the movies with the highest cosine similarity scores to the given movie and recommends them to the user.
+## 🔥 User Interface
+![App Screenshot](movie.png)
 
+---
 
-## Usage
+## 🚀 Features
 
-1. Install the required libraries:
+- 🔎 **Search any movie** from a dropdown list.  
+- 🎥 **Get 5 similar movie recommendations** instantly.  
+- 🖼️ **Movie posters displayed** using TMDB API.  
+- 💡 Built with **content-based filtering** using cosine similarity.  
+- ⚡ Lightweight and easy to run locally or deploy online.  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **Streamlit** (for UI)
+- **Scikit-learn** (cosine similarity)
+- **Pickle** (for model persistence)
+- **Requests** (to fetch posters via TMDB API)
+- **Pandas / Numpy**
+
+---
+
