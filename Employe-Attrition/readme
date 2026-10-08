@@ -1,6 +1,20 @@
-This README provides a general overview of an employee attrition project. It outlines the problem, describes the dataset and methodology, and offers instructions for usage and contributing.
+# Employee Attrition Prediction — Machine Learning
 
-It emphasizes data preprocessing and exploratory data analysis as crucial steps.
-It suggests common machine learning models used in attrition prediction.
-It includes instructions for installation and data acquisition.
-It mentions hyperparameter tuning and deployment for practical application.
+## Objective
+Explore employee attrition data and build a machine-learning workflow for identifying patterns associated with employee exits.
+
+## Intended Workflow
+**Data acquisition → preprocessing → exploratory analysis → feature preparation → model training → evaluation → deployment**
+
+## Focus Areas
+- Data preprocessing
+- Exploratory analysis
+- Feature preparation
+- Model comparison/tuning
+- Practical deployment considerations
+
+## Portfolio Note
+This project is retained as an ML learning project; the README now clearly separates the documented methodology from future implementation steps rather than implying unsupported results.
+
+## Tech Stack
+**Python | Pandas | Scikit-learn | Machine Learning | EDA**
