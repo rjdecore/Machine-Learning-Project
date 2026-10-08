@@ -1,9 +1,20 @@
-This README outlines the key elements of a Quora Question Similarity project. It highlights:
+# Quora Question Similarity — Machine Learning
 
-The Problem: Identifying duplicate questions on Quora.
-Dataset: Specifies the commonly used Quora Question Pairs dataset.
-Methodology: Includes data preprocessing, feature engineering, model selection, and evaluation.
-Feature Engineering: Emphasizes the importance of TF-IDF, word embeddings, and cosine similarity.
-Model Selection: Suggests popular models for similarity tasks, including Siamese Networks.
-Deployment: Mentions the potential for real-time application.
-Standard Sections: Includes installation instructions, contribution guidelines, and license information
+## Objective
+Identify whether two Quora questions are duplicates or semantically similar.
+
+## Analytical Workflow
+**Text cleaning → feature engineering → similarity representation → model training → evaluation → deployment**
+
+## Techniques Covered
+- Text preprocessing
+- TF-IDF and similarity-based features
+- Cosine similarity
+- Classification/model-selection concepts
+- Potential Siamese-network approaches
+
+## Portfolio Note
+This repository is positioned as an NLP/ML project; the README describes the intended methodology without claiming model results that are not documented in the project files.
+
+## Tech Stack
+**Python | NLP | TF-IDF | Cosine Similarity | Scikit-learn | Machine Learning**
