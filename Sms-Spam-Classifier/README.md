@@ -1,50 +1,19 @@
-# SMS Spam Detection App
+# SMS Spam Detection — Machine Learning + Streamlit
 
-This project is an SMS Spam Detection system built using **Python**, **Scikit-learn**, and **Streamlit**. The app classifies SMS messages as **Spam** or **Not Spam (Ham)** using a **Multinomial Naive Bayes (MNB)** model trained on preprocessed text.
+## Objective
+Classify incoming SMS messages as **Spam** or **Not Spam (Ham)**.
 
----
+## NLP Workflow
+**Text preprocessing → TF-IDF vectorization → Multinomial Naive Bayes → prediction → Streamlit UI**
 
-## 🔹 Project Overview
+## Text Preparation
+The project applies text-cleaning steps including tokenization, stopword handling, punctuation removal, and stemming before vectorization.
 
-- **Objective:** Automatically detect whether an SMS message is spam or legitimate.
-- **Techniques Used:**
-  - Text preprocessing: tokenization, stopword removal, punctuation removal, stemming.
-  - Feature extraction: **TF-IDF Vectorization**.
-  - Model: **Multinomial Naive Bayes (MNB)**.
-  - Web app: **Streamlit** for interactive user interface.
+## Model
+**Multinomial Naive Bayes** trained on TF-IDF features.
 
-- **Why This Project:**  
-  SMS spam is a common problem affecting millions of users. This project provides a **quick, automated way** to detect and filter spam messages.
+## Application
+The Streamlit interface accepts a message and returns its predicted class.
 
----
-
-## 🔹 Features
-
-- Preprocesses SMS text to extract meaningful features.
-- Predicts **Spam** or **Not Spam** for any input SMS.
-- Interactive web app using Streamlit.
-- Supports dense TF-IDF vectors for compatibility with the trained model.
-- Can be extended to batch predictions or integrated with messaging systems.
-
-## App Screenshot
-
-Here’s how the SMS Spam Detection app looks:
-
-![SMS Spam Detection App](home.png)
-
-![SMS Spam Detection App](ham.png)
-
-![SMS Spam Detection App](spam.png)
-
-
-
-
-
----
-
-## 🔹 Installation
-
-1. **Clone the repository**
-```bash
-git clone <(https://github.com/rjdecore/Machine-Learning-Project/edit/main/Sms-Spam-Classifier/README.md)>
-cd sms-spam-detection
+## Tech Stack
+**Python | NLP | TF-IDF | Multinomial Naive Bayes | Scikit-learn | Streamlit**
