@@ -1,9 +1,5 @@
 flask
 numpy
-scikit-learn
-pickle-mixin
-flask
-numpy
+pandas
 scikit-learn
 xgboost
-pandas
