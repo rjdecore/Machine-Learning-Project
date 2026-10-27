@@ -1,6 +1,6 @@
 # Machine Learning Portfolio
 
-A collection of machine-learning projects spanning classification, regression, recommendation systems, clustering and text analysis. Projects vary in scope and implementation maturity; consult each project's files and README for the workflow actually implemented.
+A collection of machine-learning case studies spanning classification, regression, recommendation systems, clustering and text analysis. The projects demonstrate the core workflow from defining a prediction task and preparing features to model training, evaluation and application integration.
 
 **Core stack:** Python · Pandas · NumPy · scikit-learn · XGBoost · Flask · Streamlit
 
@@ -16,24 +16,24 @@ A collection of machine-learning projects spanning classification, regression, r
 
 ## Model development workflow
 
-1. Define the prediction target and how the model will be used.
-2. Inspect target balance, feature types, missing values, leakage risks and duplicates.
-3. Split data appropriately before fitting transformations.
-4. Build preprocessing and modeling steps into a reproducible pipeline where possible.
-5. Establish a baseline and choose metrics appropriate to the task.
-6. Tune hyperparameters using cross-validation on training data only.
-7. Evaluate once on held-out data and explain errors, limitations and likely deployment drift.
-8. Persist the fitted preprocessing/model pipeline and validate inference on unseen examples.
+1. Define the target variable and intended use of predictions.
+2. Inspect feature types, target balance, missing values, duplicates and leakage risks.
+3. Prepare features and split data appropriately.
+4. Build preprocessing and model steps into a reproducible workflow.
+5. Establish a baseline and select task-appropriate evaluation metrics.
+6. Tune model parameters and compare candidate models.
+7. Evaluate model behavior and interpret important errors.
+8. Connect the model to an inference workflow where the project includes an application.
 
-## Evaluation standards
+## Skills demonstrated
 
-- **Classification:** report appropriate metrics such as precision, recall, F1, ROC-AUC and a confusion matrix; consider class imbalance and threshold choice.
-- **Regression:** report metrics such as MAE/RMSE and R², compare against a simple baseline and inspect residuals.
-- **Recommendation:** explain the similarity method, candidate-generation limits and how recommendation quality would be evaluated.
-- **Deployment:** verify that training and inference use identical feature names, order and preprocessing.
+- Classification and regression
+- Feature engineering and preprocessing pipelines
+- Model selection and hyperparameter tuning
+- Evaluation with task-appropriate metrics
+- Content-based recommendation and similarity analysis
+- Flask/Streamlit application integration
 
-## Quality notes
+## How to explore the portfolio
 
-The README descriptions indicate methods associated with each project, but do not by themselves prove model quality or generalization. Before quoting performance numbers, verify the notebook, split strategy, leakage controls, validation results and saved pipeline. Avoid making clinical or other high-stakes claims from a demo model.
-
-Each project folder contains its own implementation and available supporting files.
+Open each project folder to review its problem statement, preprocessing workflow, model approach, evaluation and available application files. The focus is on understanding not only the selected model, but also how the prediction task is framed and how model outputs can support a decision.
