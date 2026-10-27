@@ -12,8 +12,14 @@ Build a content-based recommendation system that returns similar movies based on
 ## Application
 The Streamlit app lets a user select a movie and returns **5 similar recommendations** with posters and titles.
 
+## Run locally
+
+From this project directory, install the app dependencies and run `streamlit run app.py`.
+
+**Reproducibility note:** the repository tree currently does not contain `model/movie_list.pkl` or `model/similarity.pkl`. The app now reports this clearly instead of crashing, but recommendations cannot run until those artifacts are exported from the notebook and placed in the `model/` folder.
+
 ## External Integration
-TMDB API is used to retrieve movie posters for the recommended titles.
+TMDB API is optional and is used only to retrieve movie posters. To enable posters, set the `TMDB_API_KEY` environment variable; the key is no longer embedded in source code. Without a key, movie recommendations can still be displayed without posters.
 
 ## Tech Stack
 **Python | Pandas | NumPy | Scikit-learn | Cosine Similarity | Streamlit | TMDB API**
