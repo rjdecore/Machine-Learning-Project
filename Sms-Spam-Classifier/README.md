@@ -26,4 +26,4 @@ The Streamlit interface accepts a message and returns its predicted class.
 **Business use:** This illustrates a message-filtering workflow. False positives can hide legitimate messages, so any real deployment needs threshold review and monitoring.
 
 ## Report / PDF
-Use the notebook, dataset and Streamlit app as the primary artifacts; no project-specific PDF was identified in the folder listing.
+[Open the code PDF](code_pdf.pdf), notebook, dataset and Streamlit app.
