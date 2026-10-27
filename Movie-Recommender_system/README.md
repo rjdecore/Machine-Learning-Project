@@ -17,3 +17,13 @@ TMDB API is used to retrieve movie posters for the recommended titles.
 
 ## Tech Stack
 **Python | Pandas | NumPy | Scikit-learn | Cosine Similarity | Streamlit | TMDB API**
+
+## Business Questions & Value
+**Question:** Given a selected movie, which five titles are most similar according to the project's metadata-based similarity method?
+
+**Finding to communicate:** The app returns five recommendations based on cosine similarity. This demonstrates content similarity, not necessarily user preference or recommendation relevance; quality would need a user-rating or offline ranking evaluation.
+
+**Business use:** Content platforms can use similar-item recommendations to improve discovery and keep users exploring related titles.
+
+## Report / PDF
+The Streamlit app and notebook/code artifacts are the primary demonstration; no project-specific PDF was identified in the folder listing.
