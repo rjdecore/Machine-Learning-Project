@@ -32,4 +32,4 @@ Interactive Streamlit UI accepts laptop specifications and returns a predicted p
 **Business use:** The project demonstrates a specification-based price-estimation workflow that could support comparison or listing-price research; it is not a guarantee of current market price.
 
 ## Report / PDF
-Review the notebook, app and any available PDF export in this folder; no PDF was identified in the repository listing.
+[Open the code PDF](code%20pdf.pdf), notebook and Streamlit app.
