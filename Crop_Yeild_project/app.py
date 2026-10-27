@@ -48,7 +48,7 @@ def predict():
             transformed_features = preprocessor.transform(features)
             prediction = dtr.predict(transformed_features)[0]
 
-            return render_template('index.html', prediction=f"Predicted Yield: {prediction}")
+            return render_template('index.html', prediction=f"Predicted Yield: {float(prediction):,.2f}")
 
         except ValueError as e:
             return render_template('index.html', prediction=f"Input Error: {e}")
