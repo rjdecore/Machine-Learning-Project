@@ -2,12 +2,17 @@ from flask import Flask, request, render_template
 import numpy as np
 import pickle
 import sklearn
+import os
 
 print("Sklearn version:", sklearn.__version__)
 
+# Resolve model paths relative to this file, not the shell's working directory.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, 'models')
+
 # Load models
-dtr = pickle.load(open('models/dtr.pkl', 'rb'))
-preprocessor = pickle.load(open('models/preprocessor.pkl', 'rb'))
+dtr = pickle.load(open(os.path.join(MODEL_DIR, 'dtr.pkl'), 'rb'))
+preprocessor = pickle.load(open(os.path.join(MODEL_DIR, 'preprocessor.pkl'), 'rb'))
 
 # Flask app
 app = Flask(__name__)
@@ -43,7 +48,7 @@ def predict():
             transformed_features = preprocessor.transform(features)
             prediction = dtr.predict(transformed_features)[0]
 
-            return render_template('index.html', prediction=f"Predicted Yield: {prediction}")
+            return render_template('index.html', prediction=f"Predicted Yield: {float(prediction):,.2f}")
 
         except ValueError as e:
             return render_template('index.html', prediction=f"Input Error: {e}")
@@ -52,4 +57,4 @@ def predict():
             return render_template('index.html', prediction=f"Error: {e}")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)

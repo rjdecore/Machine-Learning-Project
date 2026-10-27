@@ -19,3 +19,13 @@ Users enter customer attributes through the Flask UI and receive churn predictio
 
 ## Tech Stack
 **Python | Pandas | Scikit-learn | ColumnTransformer | XGBoost | Flask | Model Persistence**
+
+## Business Questions & Value
+**Question:** Which customers are predicted to churn based on the available customer attributes, and what probability does the model assign?
+
+**Finding to communicate:** The app returns a model prediction and probability. Add model performance numbers only after confirming held-out evaluation results, class balance and the selected probability threshold in the notebook.
+
+**Business use:** Customer-success teams could use scores to prioritize retention outreach for review, but predictions should be evaluated for false positives, false negatives and fairness before operational use.
+
+## Report / PDF
+[Open the project code/report PDF](code.pdf), the notebook and the saved model/preprocessor artifacts.
