@@ -27,4 +27,4 @@ The Flask application accepts tumor-related inputs and returns a prediction thro
 **Business use and limitation:** This is a learning/demo project, not a clinical diagnostic tool. Real clinical use requires rigorous external validation and qualified medical oversight.
 
 ## Report / PDF
-Review the available notebook and PDF export in this folder, if present, alongside the Flask app.
+[Open the code PDF](notebook%20and%20dataset/code_pdf.pdf), the notebook and the Flask app.
