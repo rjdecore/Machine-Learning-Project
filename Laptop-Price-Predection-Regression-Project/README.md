@@ -23,3 +23,13 @@ Interactive Streamlit UI accepts laptop specifications and returns a predicted p
 
 ## Tech Stack
 **Python | Pandas | NumPy | Scikit-learn | XGBoost | Feature Engineering | Streamlit**
+
+## Business Questions & Value
+**Question:** What price does the model estimate for a laptop given its brand, CPU/GPU, RAM, storage, display and other specifications?
+
+**Finding to communicate:** The Streamlit app uses a saved preprocessing/model pipeline to return an estimated price. Quote RMSE/R² only from the notebook's held-out evaluation and explain the currency, target transformation and error scale.
+
+**Business use:** The project demonstrates a specification-based price-estimation workflow that could support comparison or listing-price research; it is not a guarantee of current market price.
+
+## Report / PDF
+Review the notebook, app and any available PDF export in this folder; no PDF was identified in the repository listing.
