@@ -32,4 +32,4 @@ A Streamlit application accepts input parameters and returns the model predictio
 **Business use and limitation:** This is an educational ML demonstration, not a medical diagnostic or treatment recommendation. Clinical use would require external validation, clinical governance and expert oversight.
 
 ## Report / PDF
-Review the notebook and any PDF export available in this folder together with the Streamlit app.
+[Open the full Python-code PDF](Full_python_code.pdf), the notebook and the Streamlit app.
