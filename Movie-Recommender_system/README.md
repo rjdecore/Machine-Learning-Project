@@ -26,4 +26,4 @@ TMDB API is used to retrieve movie posters for the recommended titles.
 **Business use:** Content platforms can use similar-item recommendations to improve discovery and keep users exploring related titles.
 
 ## Report / PDF
-The Streamlit app and notebook/code artifacts are the primary demonstration; no project-specific PDF was identified in the folder listing.
+[Open the project code PDF](code.pdf), notebook and Streamlit app.
