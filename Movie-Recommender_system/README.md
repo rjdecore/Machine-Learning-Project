@@ -18,10 +18,11 @@ From this project directory, install the app dependencies and run `streamlit run
 
 ```bash
 pip install -r requirements.txt
+python build_artifacts.py
 streamlit run app.py
 ```
 
-**Reproducibility note:** the repository does not include the TMDB 5000 Movies and Credits CSV files or generated `model/movie_list.pkl` / `model/similarity.pkl` artifacts. Obtain the dataset from its legitimate source, place `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv` beside the notebook, run the notebook top-to-bottom, and execute its final two artifact-export cells. Those cells now create `model/` and export a DataFrame plus the already-computed similarity matrix in matching row order. Copy the generated `model/` folder beside `app.py` before launching the app.
+**Reproducibility note:** the repository does not include the TMDB 5000 CSVs or generated model artifacts. Download `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv` from the [TMDB Movie Metadata dataset on Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) and place them beside `build_artifacts.py`. Generate artifacts with `python build_artifacts.py`; it creates `model/movie_list.pkl` and `model/similarity.pkl` with aligned row order. The dense similarity matrix is large, so generated pickle files are intentionally ignored by Git rather than committed. The notebook's final export cells were also corrected.
 
 ## External Integration
 TMDB API is optional and is used only to retrieve movie posters. To enable posters, set the `TMDB_API_KEY` environment variable; the key is no longer embedded in source code. Without a key, movie recommendations can still be displayed without posters.
