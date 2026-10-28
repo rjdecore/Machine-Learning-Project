@@ -23,13 +23,3 @@ A Streamlit application accepts input parameters and returns the model predictio
 
 ## Tech Stack
 **Python | Pandas | NumPy | Scikit-learn | XGBoost | CatBoost | LightGBM | Streamlit**
-
-## Business Questions & Value
-**Question:** Which input patterns does the trained classifier associate with the dataset's chronic-kidney-disease labels?
-
-**Finding to communicate:** The README documents Extra Trees as the selected model after comparing several classifiers. Include test-set metrics and validation details only from the notebook's recorded results.
-
-**Business use and limitation:** This is an educational ML demonstration, not a medical diagnostic or treatment recommendation. Clinical use would require external validation, clinical governance and expert oversight.
-
-## Report / PDF
-[Open the full Python-code PDF](Full_python_code.pdf), the notebook and the Streamlit app.

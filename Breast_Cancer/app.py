@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 import numpy as np
 import pickle
-import os
 
 app = Flask(__name__)
 
@@ -28,8 +27,7 @@ FEATURE_PAIRS = list(zip(FEATURES, PLACEHOLDERS))
 
 # ===== Load trained model =====
 # Adjust the path if your model is elsewhere (e.g., 'model.pkl')
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, 'models', 'model.pkl')
+MODEL_PATH = 'models/model.pkl'
 with open(MODEL_PATH, 'rb') as f:
     model = pickle.load(f)
 

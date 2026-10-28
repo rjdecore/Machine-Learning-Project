@@ -1,17 +1,15 @@
 import streamlit as st
 import pandas as pd
 import pickle
-from pathlib import Path
 
 # Load trained scaler and K-Means
-BASE_DIR = Path(__file__).resolve().parent
-with (BASE_DIR / 'scaler.pkl').open('rb') as f:
+with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
-with (BASE_DIR / 'kmeans.pkl').open('rb') as f:
+with open('kmeans.pkl', 'rb') as f:
     kmeans = pickle.load(f)
 
-with (BASE_DIR / 'train_features.pkl').open('rb') as f:
+with open('train_features.pkl', 'rb') as f:
     features = pickle.load(f)
 
 st.title("Customer Segmentation Predictor")

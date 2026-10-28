@@ -1,13 +1,11 @@
 import streamlit as st
 import pandas as pd
 import pickle
-from pathlib import Path
 
 # ---------------------------
 # Load saved model (pipeline with preprocessing + ExtraTreesClassifier)
 # ---------------------------
-MODEL_PATH = Path(__file__).resolve().parent / "final_extratrees_model.pkl"
-with MODEL_PATH.open("rb") as f:
+with open("final_extratrees_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # ---------------------------

@@ -22,13 +22,3 @@ The existing analysis reports **RMSE = 11.2273** and **R² = 0.5789**, concludin
 
 ## Tech Stack
 **Python | Pandas | NumPy | Scikit-learn | Matplotlib | Regression Analysis**
-
-## Business Questions & Value
-**Question:** How much variation in sales is associated with advertising expenditure in the 36-month sample, and how well does a straight-line model predict sales?
-
-**Finding:** The existing analysis reports RMSE = 11.2273 and R² = 0.5789, and describes the linear fit as limited. Interpret R² in context and inspect residuals before deciding whether a more flexible model is justified.
-
-**Business use:** This is a baseline for discussing advertising/sales relationships and forecasting limitations. The observational relationship alone does not prove advertising caused sales changes.
-
-## Report / PDF
-Use the notebook and any PDF export present in this folder; the README does not identify a separate PDF filename.

@@ -1,12 +1,10 @@
 import streamlit as st
 import joblib
 import re
-from pathlib import Path
 
 # Load model and vectorizer (already uploaded to Colab)
-BASE_DIR = Path(__file__).resolve().parent
-vectorizer = joblib.load(BASE_DIR / "vectorizer.joblib")
-model = joblib.load(BASE_DIR / "model.joblib")
+vectorizer = joblib.load("vectorizer.joblib")
+model = joblib.load("model.joblib")
 
 # Function to clean text
 def clean_text(text):

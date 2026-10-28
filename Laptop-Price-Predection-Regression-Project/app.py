@@ -2,12 +2,10 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
-from pathlib import Path
 
 # import the model and dataframe
-BASE_DIR = Path(__file__).resolve().parent
-pipe = joblib.load(BASE_DIR / 'pipe.pkl')
-df = joblib.load(BASE_DIR / 'df.pkl')
+pipe = joblib.load(open('pipe.pkl','rb'))
+df = joblib.load(open('df.pkl','rb'))
 
 st.title("💻 Laptop Price Predictor")
 
